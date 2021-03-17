@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  />
+  <link rel="stylesheet" href="css/style.css">
+  <title>LiSA 『炎』PV再現企画 特設HP</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif+JP:wght@200;900&display=swap');
+  </style> 
+  <!-- YTPlayer -->
+  <!-- <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css"> -->
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script> -->
+  <!-- <script src="js/jquery.mb.YTPlayer.js"></script> -->
+  <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
+</head>
+<body>
+
+  <!-- Mock -->
+
+  <header class="header">
+    <div id="video_wrap">
+      <video src="video/sample.mp4" autoplay muted loop playsinline></video>
+      <!-- <div class="youtubePlayer">
+        <div id="player" data-property="{
+          videoURL:'https://youtu.be/Pt66bWWzLpw',
+          containment:'#video_wrap',
+          autoPlay:true, 
+          mute:true,
+          startAt:0, 
+          opacity:1}">
+      </div>
+      </div> -->
+    </div>
+    <div class="title">LiSA 『炎』PV再現企画</div>
+    <div class="overlay"></div>
+  </header>
+  <div class="contentsWrapper">
+    <aside class="indexWrapper">
+      <ol id="indexList" class="index">
+        <a href="#index1" id="index1"><li>概要</li></a>
+        <div class="caption">
+          『鬼滅の刃』劇場版の主題歌の『炎』のMVをみんなで撮ろう！
+        </div>
+        <div class="caption_subtitle">
+          『鬼滅の刃』劇場版の主題歌の『炎』をみんなで再現してみませんか。<br>
+          劇場版を観た人も観ていない人も、熱い思いを動画撮影に込めて思い出を作りましょう。
+        </div>
+        <a href="#index2" id="index2"><li>新型コロナウイルスへの対策</li></a>
+        <div class="caption">
+          密を避けた撮影
+        </div>
+        <div class="caption_subtitle">
+          現場の海岸は、密を避けることができます。<br>
+          アルコール類も充実させ、器具等の消毒・マスクを徹底します。
+        </div>
+        <a href="#index3" id="index3"><li>日時</li></a>
+        <div class="caption">
+          未定
+        </div>
+        <a href="#index4" id="index4"><li>場所</li></a>
+        <div class="caption">
+          千葉県山武郡九十九里町作田<br>
+          東金駅からバスで35分
+        </div>
+        <div class="googlemap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25970.864114811928!2d140.4498255994706!3d35.54485933446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022c3a2527f5def%3A0x4084dbfc3cb1059d!2z5L2c55Sw5rW35rC05rW05aC0!5e0!3m2!1sja!2sjp!4v1614726833572!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </ol>
+      <div class="headline-animation">
+      </div>
+      <div class="headline">
+        <span class="burning">心</span>
+        　を、燃やしているか。
+      </div>
+      <img src="img/steam.svg" alt="湯気" class="steam">
+  </aside>
+  <main class="contents">
+
+  </main>
+  <div class="footer">
+    <div class="footer_caption">
+      coming soon.
+    </div>
+  </div>
+  <script>
+  if(typeof jQuery === 'undefined'){
+    document.write(unescape("%3Cscript%20src%3D%27assets/jquery/jquery.js%27%3E%3C/script%3E"));
+  }
+
+  // youtubePlayer
+
+  jQuery(function(){
+      jQuery("#player").YTPlayer();
+    });
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="js/jquery.burn.min.js"></script>
+  <!-- <script src="js/jquery.mb.YTPlayer.js"></script> -->
+  <script src="js/scripts.js"></script>
+  <!-- <script src="observer.js"></script> -->
+<!-- end mock -->
+
+</body>
+</html>
