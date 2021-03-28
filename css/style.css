@@ -258,7 +258,7 @@ le
   video {
     width: 100vh;
     position: absolute;
-    min-height: 80vh;
+    /* min-height: 80vh; */
     /* right: -30%; */
   }
   
