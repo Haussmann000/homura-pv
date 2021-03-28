@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
 	font-family:  "Noto Sans JP", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  /* background-color: rgba(60, 68, 73, 1); */
   background-color: #000;
   color: #ddd;
 }
@@ -80,7 +81,7 @@ body {
   opacity: .8;
   user-select: none;
 }
-  
+
   
   .burning {
   color: #fff;
@@ -109,6 +110,10 @@ header {
   font-weight: bold;
   letter-spacing: 1rem;
   text-align: center;
+  background-color: rgba(181, 126, 96, .8);
+  font-family: "游明朝 Light", serif;
+  margin: 0;
+  padding: 25px 0px;
 }
 
 .caption {
