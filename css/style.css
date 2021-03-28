@@ -256,7 +256,7 @@ le
     left: 55%;
   }
   video {
-    width: 100%;
+    /* width: 100vw; */
     position: absolute;
     min-height: 80vh;
     /* right: -30%; */
