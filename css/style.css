@@ -81,6 +81,19 @@ body {
   opacity: .8;
   user-select: none;
 }
+  .headline-caption {
+  font-family: "游明朝 Light", serif;
+  position: absolute;
+  top: 150px;
+  /* right: 50%; */
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16vh;
+  z-index: 3;
+  opacity: .8;
+  user-select: none;
+}
 
   
   .burning {
@@ -219,27 +232,54 @@ le
 /* ipnohe10 */
 
 
-@media screen and (max-width: 780px) and (max-width: 880px) {
-  .headline{
-    font-size: 5rem;
-    width: 500px;
+
+@media screen and (min-width: 375px) {
+
+  .googlemap {
+    height: 100px;
   }
+
+  .burning {
+    position: absolute;
+    top: -100px;
+  }
+
+  .headline-animation {
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+
   .title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+    left: 55%;
   }
   video {
     width: 100vh;
     position: absolute;
     min-height: 80vh;
     /* right: -30%; */
+  }
   
-
+  .headline-caption {
+    font-size: 3rem;
+    position: absolute;
+    top: 300px;
+    width: 70%;
+    /* left: 50%; */
+  }
+  
 }
-@media screen and (max-width: 480px) and (max-width: 680px) {
-  .headline{
+
+
+@media screen and (min-width: 480px) and (max-width: 680px) {
+  .headline-caption{
     font-size: 3.3rem;
     line-height: 1.5;
     width: 300px;
+    position: absolute;
+    top: 100px;
   }
 
   .burning,.headline-animation {
@@ -259,33 +299,28 @@ le
 }
 
 
-@media screen and (max-width: 360px) and (max-width: 480px) {
-
-  .googlemap {
-    height: 100px;
-  }
-  .burning, .headline-animation {
-    display: inline-block;
+@media screen and (min-width: 680px) and (max-width: 880px) {
+  .headline-caption{
+    font-size: 5rem;
+    width: 500px;
     position: absolute;
-    top: 100px;
-    left: 10px;
+    top: 400px;
+    width: 50%;
   }
-
   .title {
-    font-size: 1.8rem;
-    left: 55%;
+    font-size: 2.5rem;
   }
   video {
     width: 100vh;
     position: absolute;
     min-height: 80vh;
     /* right: -30%; */
-  }
   
-  .headline {
-    font-size: 4rem;
-    left: 50%;
-  }
-  
+
 }
+
+}
+
+
+
 
