@@ -233,7 +233,7 @@ le
 
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 480px){
 
   .googlemap {
     height: 100px;
