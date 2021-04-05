@@ -84,12 +84,12 @@ body {
   .headline-caption {
   font-family: "游明朝 Light", serif;
   position: absolute;
-  top: 150px;
+  top: 650px;
   /* right: 50%; */
   width: 100%;
   margin: 0 auto;
   color: #fff;
-  font-size: 16vh;
+  font-size: 6vh;
   z-index: 3;
   opacity: .8;
   user-select: none;
