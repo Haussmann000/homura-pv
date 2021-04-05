@@ -263,7 +263,9 @@ le
     left: 55%;
   }
   video {
-    width: 100%;
+    /* position: absolute; */
+    /* left: -500px; */
+    /* width: 100%; */
     /* position: absolute; */
     /* min-height: 80vh; */
   }
